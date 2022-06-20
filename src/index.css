@@ -50,6 +50,7 @@ code {
 .resting-cat{
   width: 30vw;
   margin-left: 35px;
+  border-radius: 7px;
 }
 .home{
   background-color:rgba(245, 230, 190, 1);
@@ -84,6 +85,7 @@ code {
   gap: 10vh;
 }
 .book-appointment-btn{
+  cursor:pointer;
   background-color: rgba(221, 111, 111, 1);
   border:none;
   border-radius: 10px;
