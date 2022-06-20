@@ -17,6 +17,11 @@ code {
     monospace;
 }
 
+.home-background{
+  background-color:rgba(245, 230, 190, 1);
+  position:relative;
+  z-index: -5;
+}
 .cat-spaw-logo{
   font-family: "lobster";
   font-weight: bold;
@@ -27,7 +32,7 @@ code {
 
 .nav-bar{
   width: 100%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -44,4 +49,50 @@ code {
 }
 .resting-cat{
   width: 30vw;
+  margin-left: 35px;
+}
+.home{
+  background-color:rgba(245, 230, 190, 1);
+  position:relative;
+  z-index: -5;
+  height: 100vh;
+  /* position: relative;
+  display:flex;
+  flex-direction: column; */
+}
+.background-circle{
+  background-color:white;
+  border-radius: 50%;
+  height: 105vw;
+  width: 105vw;
+  overflow:hidden;
+  position:absolute;
+  z-index: -1;
+  transform: translate(-15%, -50%);
+}
+.home-container{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.home-main-context{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+.book-appointment-btn{
+  background-color: rgba(221, 111, 111, 1);
+  border:none;
+  border-radius: 10px;
+  min-width: 20vw;
+  min-height: 5vh;
+  color:white;
+}
+.main-page-header{
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgba(211, 173, 76, 1)
 }
