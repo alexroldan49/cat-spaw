@@ -20,7 +20,7 @@ code {
 .home-background{
   background-color:rgba(245, 230, 190, 1);
   position:relative;
-  z-index: -5;
+  z-index: 3;
 }
 .cat-spaw-logo{
   font-family: "lobster";
@@ -28,6 +28,8 @@ code {
   font-size: 3.5vh;
   padding: 0;
   margin-left: 35px;
+  z-index: 10;
+  cursor:pointer;
 }
 
 .nav-bar{
@@ -37,6 +39,7 @@ code {
   justify-content: space-around;
   align-items: center;
   height: 60px;
+  z-index: 10;
 }
 .nav-list{
   list-style: none;
@@ -46,6 +49,7 @@ code {
   flex-direction: row;
   width: 20vw;
   gap:70px;
+  z-index: 10;
 }
 .resting-cat{
   width: 30vw;
@@ -55,7 +59,7 @@ code {
 .home{
   background-color:rgba(245, 230, 190, 1);
   position:relative;
-  z-index: -5;
+  z-index: 3;
   height: 100vh;
   /* position: relative;
   display:flex;
