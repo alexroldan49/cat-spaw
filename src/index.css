@@ -51,8 +51,15 @@ code {
   gap:70px;
   z-index: 10;
 }
+
+.nav-list a{
+  list-style: none;
+  color:black;
+  text-decoration : none;
+}
+
 .resting-cat{
-  width: 30vw;
+  height:80vh;
   margin-left: 35px;
   border-radius: 7px;
 }

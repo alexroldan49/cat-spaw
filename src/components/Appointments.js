@@ -5,7 +5,10 @@ function Appointments(){
 
     return(
         <>
-            <h1>Appointments</h1>
+            <div style={{height: "100vh"}} > 
+                <h1>Appointments</h1>
+                <div className="background-circle"></div>
+            </div>
         </>
     )
 } export default Appointments
