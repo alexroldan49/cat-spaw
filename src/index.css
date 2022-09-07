@@ -23,6 +23,7 @@ code {
   z-index: 3;
 }
 .cat-spaw-logo{
+  color:rgba(221, 111, 111, 1);
   font-family: "lobster";
   font-weight: bold;
   font-size: 3.5vh;
